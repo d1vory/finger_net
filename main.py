@@ -11,7 +11,7 @@ def getTemplates():
         connection = mysql.connector.connect(host='localhost',
                                              database='fingerprints',
                                              user='olexandr2',
-                                             password='26753aq')
+                                             password='1234')
 
         cursor = connection.cursor()
         fingerprintNums = cursor.execute('SELECT num FROM Fingerprint')
